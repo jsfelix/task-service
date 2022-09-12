@@ -23,6 +23,7 @@ npm run test
 
 ## Endpoints
 
+```
 GET /tasks: list all tasks of a user
 POST /task: create a new task
 GET /task/{taskId}: view a task
@@ -32,4 +33,3 @@ PATCH /task/{taskId}/archive: archive a task
 ```
 
 please pass user id into request header "user"
-```
